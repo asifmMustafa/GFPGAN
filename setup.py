@@ -10,7 +10,7 @@ version_file = 'gfpgan/version.py'
 
 
 def readme():
-    with open('README.md', encoding='utf-8') as f:
+    with open('/app/GFPGAN/README.md', encoding='utf-8') as f:
         content = f.read()
     return content
 
@@ -57,7 +57,7 @@ __gitsha__ = '{}'
 version_info = ({})
 """
     sha = get_hash()
-    with open('VERSION', 'r') as f:
+    with open('/app/GFPGAN/', 'r') as f:
         SHORT_VERSION = f.read().strip()
     VERSION_INFO = ', '.join([x if x.isdigit() else f'"{x}"' for x in SHORT_VERSION.split('.')])
 
