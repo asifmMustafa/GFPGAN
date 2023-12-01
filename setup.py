@@ -6,7 +6,7 @@ import os
 import subprocess
 import time
 
-version_file = 'gfpgan/version.py'
+version_file = '/app/GFPGAN/gfpgan/version.py'
 
 
 def readme():
